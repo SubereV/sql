@@ -81,6 +81,8 @@ from Ticket
 where month(showdate)<=(12/4*@qui) and month(showdate)>=(12/4*@qui-2) and YEAR(ShowDate)=@nam
 end
 
+execute DoanhThuTheoQui 3, 2018
+
 ---------------------GRANT AND REVOKE----------------------------
 create role Manager;
 create role Staff;
