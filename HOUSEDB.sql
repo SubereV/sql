@@ -19,7 +19,7 @@ values ('101', 50, null, 2), ('102', 45, null, 2), ('103', 80, null, 4), ('104',
 
 update HOUSES
 set Price = case
-when Area_m2<=70 then 290
+when Area_m2<=70 then 290	
 when Area_m2<=90 then 300
 when Area_m2<=100 then 400
 else 500

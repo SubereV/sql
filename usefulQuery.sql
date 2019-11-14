@@ -43,8 +43,3 @@ set salary = salary*1.1
 from (select top 2 * from emps order by Salary ASC) as T
 where Emps.eno = T.eno
 
-select top 3 * from CUSTOMER order by SpendMoney DESC
-
----------------------GRANT AND REVOKE----------------------------
-create role admin
-def
